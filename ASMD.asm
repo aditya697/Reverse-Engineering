@@ -1,4 +1,3 @@
-```
 BITS 32
 
 extern printf
@@ -57,4 +56,3 @@ section .text
 
     leave
     ret
-```
