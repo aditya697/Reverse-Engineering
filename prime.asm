@@ -33,7 +33,7 @@ section .text
 	mov eax, dword [ebp-0x4]
 	mov ecx, 2
 	cmp eax, 0
-	jl not
+	jl l4
 	cmp eax, 1
 	jz l1
 	cmp eax, 2
@@ -63,7 +63,7 @@ section .text
 	call printf
  	call end
 
-	not:
+	l4:
 	push ecx
 	push d
 	call printf
