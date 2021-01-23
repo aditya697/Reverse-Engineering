@@ -6,9 +6,9 @@ extern scanf
 section .data
 	fmt: db "%d",0
 	d: db "%d",10,0
-	output: db " %d is prime ",10,0
-	output2: db " %d is not prime",10,0
-	output3: db "neither nor prime",10,0
+	is_prime: db " %d is prime ",10,0
+	not_a_prime: db " %d is not prime",10,0
+	not_both: db "neither nor prime",10,0
 
 section .text
 	global main
@@ -37,29 +37,29 @@ section .text
 	cmp eax, 1
 	jz l1
 	cmp eax, 2
-	jz is
+	jz l2
 	cmp eax, 2
-	jg prime
+	jg l3
 
-	prime:
+	l3:
 	mov edx, 0
 	mov eax, dword [ebp-0x4]
 	div ecx
 	cmp edx, 0
 	jz not
 	cmp ecx, ebx
-	jz is
+	jz l2
 	add ecx, 1
-	jmp prime
+	jmp l3
 
-	is:
+	l2:
 	push dword [ebp-0x4]
-	push output
+	push is_prime
 	call printf
 	call end
 	
 	l1:
-	push output3
+	push not_both
 	call printf
  	call end
 
@@ -70,7 +70,7 @@ section .text
 
 	mov eax, dword [ebp-0x4]
 	push eax
-	push output2
+	push not_a_prime
 	call printf
 	call end
 
