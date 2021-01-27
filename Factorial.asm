@@ -4,8 +4,8 @@ extern printf
 extern scanf
 
 section .data
-	d:db "%d",0
-	output: db "factorial is %d",10,0
+	fmt:db "%d",0
+	factorial: db "factorial is %d",10,0
 
 section .text
 	global main
@@ -18,25 +18,25 @@ section .text
 
 	lea eax, [ebp-0x4]
 	push eax
-	push d
+	push fmt
 	call scanf
 
 	mov ebx, dword [ebp-0x4]
 	mov eax, 1
 	mov ecx, 1
-	call facto
+	call L1
 
 
-	facto:
+	L1:
 	mul ecx
 	cmp ecx, ebx
-	jz end
+	jz L2
 	add ecx, 1
-	jmp facto
+	jmp L2
 
-	end:
+	L2:
 	push eax
-	push output
+	push factorial
 	call printf
 	leave
 	ret
