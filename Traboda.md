@@ -43,3 +43,9 @@ From the code we can say that input2 must be fixed that is ``hex(input2) = 0x6f5
 We can predict the input1 by looking at the ebx compare statement. It says if ebx is not equal to the given hex value(0xdeadbeef) then it jumps to "not correct". The value in ebx is the sum of input1 and input2. So by ```subtracting 0xdeadbeef from 0x6f56df8d``` we get input1.
 
 ```FLAG:-inctfj{1867964258,1867964301}```
+
+# ***ONLY PRINTABLES***
+
+We are given a file. First giving permission to it using ```chmod +x <filename>``` . It will ask for a key.
+
+Then using gdb. We can see that 
