@@ -48,4 +48,11 @@ We can predict the input1 by looking at the ebx compare statement. It says if eb
 
 We are given a file. First giving permission to it using ```chmod +x <filename>``` . It will ask for a key.
 
-Then using gdb. We can see that 
+Then using radare2 ```r2 <filename>``` then ``aa`` for searching all flags.
+
+Then by using ```pdf@sym.main``` we can find the key.
+
+By giving the key we get the flag.
+
+*```FLAG:-flag{YElOo_Th3r3_m4T3}```*
+
