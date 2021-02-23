@@ -81,3 +81,11 @@ We are given a file. We are asked find what is architecture of the file. By usin
 We get ```ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=506e836cb60b0b6c506ebd9822312d75d1417b53, not stripped```
 
 *```FLAG:-flag{x86-64}```*
+
+# ***MAY THE FORCE BE WITH YOU***
+
+We are given a file. If we enter different we will get different outputs.
+
+By using this we will get the flag ```for i in {a..z}; do echo $i | ./bin; done | grep -a "inctf"```
+
+*```FLAG:-inctfj{i_have_the_high_ground}```*
