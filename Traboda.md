@@ -56,3 +56,28 @@ By giving the key we get the flag.
 
 *```FLAG:-flag{YElOo_Th3r3_m4T3}```*
 
+# ***SHUFFLE***
+
+We are givena file. Give permission and run. If we enter the key get flag length is correct or wrong.
+
+By using ```r2 <filename>``` We can find the length of the key by using ```x/s ``` then we can find it 36.
+
+By seeing the code we can see flag which is shuffled. By putting them order we get the flag.
+
+*```FLAG:-inctfj{s00_much_l00p1ng_1s_n0t_g00d}```*
+
+# ***BE-STRONG***
+
+We are given a file. Give permission and run. If we enter a letter or number the program outputs differently. For one letter it will give the flag.
+
+We can find the flag that is ```g```.
+
+*```FLAG:-inctfj{Its_a_3_D1g1t_Armstr0ng_numb3r}```*
+
+# ***WHAT IS THIS?***
+
+We are given a file. We are asked find what is architecture of the file. By using ```file <filename```.
+
+We get ```ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=506e836cb60b0b6c506ebd9822312d75d1417b53, not stripped```
+
+*```FLAG:-flag{x86-64}```*
