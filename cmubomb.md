@@ -17,5 +17,5 @@ By running the program multiple times we can find values have to inputted by see
 
 ```1 2 6 24 120 720```
 
-#3 *PHASE_3*
+## *PHASE_3*
 
