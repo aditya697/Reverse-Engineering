@@ -35,6 +35,7 @@ For different values from 0-7 the other 2 inputs will vary
 ```5 t 458```
 ```6 v 780```
 ```7 b 524```
+
 ![re](https://user-images.githubusercontent.com/73250884/109410932-747f9000-79c4-11eb-99de-ec57fc5d0341.png)
 
 Phase can be defused by all these pairs of values.
