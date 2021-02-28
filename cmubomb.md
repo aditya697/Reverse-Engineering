@@ -44,3 +44,5 @@ For different values from 0-7 the other 2 inputs will vary accordingly.
 ```
 
 Phase_3 can be defused by all these pairs of values.
+
+## *PHASE_4*
