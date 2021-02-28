@@ -11,7 +11,7 @@ If we try them one will be correct for the program ```Public speaking is very ea
 
 By using gdb we can crack phase_2. First we use `disas phase_2`.
 
-By looking at the code we find scanf by keeping breakpoint at the scanf statement and running the we will the input for phase_2 is integers.
+By looking at the code we find scanf by keeping breakpoint at the scanf statement and running the we can find ``%d %d %d %d %d %d``.
 
 By running the program multiple times we can find values have to inputted by seeing the values in eax register.
 
@@ -21,7 +21,7 @@ By running the program multiple times we can find values have to inputted by see
 
 By looking at code of the phase_3 using `disas phase_3`.
 
-By keeping a breakpoint at scanf function we ca find ``%d %c %d`` first and last are integers the middle input is a character.
+By keeping a breakpoint at scanf function we can find ``%d %c %d`` first and last are integers the middle input is a character.
 
 The program says the first input must be less than or equal to 7 (<=7).
 
