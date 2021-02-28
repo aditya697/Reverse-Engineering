@@ -25,7 +25,7 @@ By keeping a breakpoint at scanf function we ca find ``%d %c %d`` first and last
 
 The program says the first input must be less than or equal to 7 (<=7).
 
-For different values from 0-7 the other 2 inputs will vary
+For different values from 0-7 the other 2 inputs will vary accordingly.
 ```
 0 q 777
 1 b 214
