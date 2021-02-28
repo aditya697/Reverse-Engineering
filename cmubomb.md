@@ -19,3 +19,22 @@ By running the program multiple times we can find values have to inputted by see
 
 ## *PHASE_3*
 
+By looking at code of the phase_3 using `disas phase_3`.
+
+By keeping a breakpoint at scanf function we ca find ``%d %c %d`` first and last are integers the middle input is a character.
+
+The program says the first input must be less than or equal to 7 (<=7).
+
+For different values from 0-7 the other 2 inputs will vary
+
+```0 q 777```
+```1 b 214```
+```2 b 755```
+```3 k 251```
+```4 o 160```
+```5 t 458```
+```6 v 780```
+```7 b 524```
+![re](https://user-images.githubusercontent.com/73250884/109410932-747f9000-79c4-11eb-99de-ec57fc5d0341.png)
+
+Phase can be defused by all these pairs of values.
