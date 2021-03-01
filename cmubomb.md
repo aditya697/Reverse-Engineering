@@ -55,7 +55,9 @@ We can see that compare is comparing the hex value of 37 which is 55 in decimal.
 
 The program has function defined,which is recursive. So every recursive function will have a base condition and a recursive condition.
 
-By using ``disas func4`` we can see 
+By using ``disas func4`` the useful parts that we find are
+
 ![image](https://user-images.githubusercontent.com/73250884/109544071-1ef2d280-7aed-11eb-9c85-7d08870ad168.png)
+
 ![image](https://user-images.githubusercontent.com/73250884/109543725-a9870200-7aec-11eb-9d8f-a5c2dc69e7b5.png)
 
