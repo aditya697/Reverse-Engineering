@@ -46,3 +46,16 @@ For different values from 0-7 the other 2 inputs will vary accordingly.
 Phase_3 can be defused by all these pairs of values.
 
 ## *PHASE_4*
+
+By looking at the code of phase_4 using ```disas phase_4```.
+
+By keeping a breakpoint at scanf function we can find ``%d``, therefore input is a number.
+
+We can see that compare is comparing the hex value of 37 which is 55 in decimal.So we have to input that the program turns into 55 and phase_4 gets defused.
+
+The program has function defined,which is recursive. So every recursive function will have a base condition and a recursive condition.
+
+By using ``disas func4`` we can see 
+![image](https://user-images.githubusercontent.com/73250884/109544071-1ef2d280-7aed-11eb-9c85-7d08870ad168.png)
+![image](https://user-images.githubusercontent.com/73250884/109543725-a9870200-7aec-11eb-9d8f-a5c2dc69e7b5.png)
+
