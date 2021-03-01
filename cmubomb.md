@@ -64,3 +64,5 @@ By using ``disas func4`` the useful parts that we find are
 We can uderstand it is a fibonacci series, for 55 fibonacci is 10,Since the 2nd and 3rd fibonacci number are same.
 
 So the number above the number = 2 we have to subtract 1. Therefore 10-1=9. ``9`` defuses the phase_4.
+
+## *PHASE_5*
