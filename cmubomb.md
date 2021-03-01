@@ -59,5 +59,6 @@ By using ``disas func4`` the useful parts that we find are
 
 ![image](https://user-images.githubusercontent.com/73250884/109544071-1ef2d280-7aed-11eb-9c85-7d08870ad168.png)
 
-![image](https://user-images.githubusercontent.com/73250884/109543725-a9870200-7aec-11eb-9d8f-a5c2dc69e7b5.png)
+![image](https://user-images.githubusercontent.com/73250884/109544527-adffea80-7aed-11eb-8dd5-396c9917e892.png)
+ 
 
