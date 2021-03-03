@@ -16,7 +16,7 @@ We can see there is scanf function by seeting breakpoint at that place and runni
 
 Then if we objdump the file and check we can find the key, which is ```w0wgreat```.
 
-# ***CRACKE0x01***
+# ***CRACKME0x01***
 
 We are given a file,by giving it permission and running it we can see that we are asked an input.
 
