@@ -58,6 +58,8 @@ By looking at code we can see a scanf function,by keeping breakpoint at that pla
 
 Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
 
-Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct. ``Eg:- 88,556``
+Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct.
+
+The input should be ending with even numbers due to parallel function. ``Eg:- 88,556``
 
 # ***CRACKME0x06***
