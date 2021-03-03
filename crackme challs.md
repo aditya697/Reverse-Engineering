@@ -41,3 +41,23 @@ By looking at code we can see a scanf function,by keeping breakpoint at that pla
 Then we can see a strcmp statement after the imul statement by checking the way in the eax register which is ``0x52b24`` in hex and converting into decimal it is ```338724```.
 
 # ***CRACKME0x04***
+
+We are given a file,by giving it permission and running it we can see that we are asked an input.
+
+By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
+
+Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
+
+Then values in sscanf are added and compared with 15. Soo the numbers entered should make sum of 15 for the input to be correct. ``Eg:- 663,12345``
+
+# ***CRACKME0x05***
+
+We are given a file,by giving it permission and running it we can see that we are asked an input.
+
+By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
+
+Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
+
+Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct. ``Eg:- 88,556``
+
+# ***CRACKME0x06***
