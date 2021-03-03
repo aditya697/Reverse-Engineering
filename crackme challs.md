@@ -16,12 +16,28 @@ We can see there is scanf function by seeting breakpoint at that place and runni
 
 Then if we objdump the file and check we can find the key, which is ```w0wgreat```.
 
-# ***CRACKE0x001***
+# ***CRACKE0x01***
 
-We are given a file,by giving it permission adn running it we can see that we are asked an input.
+We are given a file,by giving it permission and running it we can see that we are asked an input.
 
 By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%d`` which is an integer.
 
 Then we can see a strcmp statement which is comparing our input with `0x149a` hex which is ``5274`` in decimal.
 
-# ***CRACKME0x002***
+# ***CRACKME0x02***
+
+We are given a file,by giving it permission and running it we can see that we are asked an input.
+
+By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%d`` which is an integer.
+
+Then we can see a strcmp statement after the imul statement by checking the way in the eax register which is ``0x52b24`` in hex and converting into decimal it is ```338724```.
+
+# ***CRACKME0x03***
+
+We are given a file,by giving it permission and running it we can see that we are asked an input.
+
+By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%d`` which is an integer.
+
+Then we can see a strcmp statement after the imul statement by checking the way in the eax register which is ``0x52b24`` in hex and converting into decimal it is ```338724```.
+
+# ***CRACKME0x04***
