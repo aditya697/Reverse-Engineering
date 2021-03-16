@@ -74,8 +74,55 @@ Then values in sscanf are added and compared with 16. Soo the numbers entered sh
 
 The input should be ending with even numbers due to parallel function.
 
-Here there is extra function named dummy,So in all the above ones variable is LOL but here we should use ``LOLO``.
+Here there is extra function named dummy,So in all the above ones variable is LOL but here we should use ``LOL``.
 
-So if we run the program using ``LOLO= ./crackme0x06`` and give ``88,556....`` with last digits even.
+So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` with last digits even.
 
 # ***CRACKME0x07***
+
+We are given a file,by giving it permission and running it we can see that we are asked an input.
+
+By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
+
+Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
+
+Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct.
+
+The input should be ending with even numbers due to parallel function.
+
+Here there is extra function named dummy,So in all the above ones variable is LOL but here we should use ``LOL``.
+
+So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` with last digits even.
+
+# ***CRACKME0X08***
+
+We are given a file,by giving it permission and running it we can see that we are asked an input.
+
+By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
+
+Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
+
+Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct.
+
+The input should be ending with even numbers due to parallel function.
+
+Here there is extra function named dummy,So in all the above ones variable is LOL but here we should use ``LOLO``.
+
+So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` with last digits even.
+
+# ***CRACKME0X09***
+
+We are given a file,by giving it permission and running it we can see that we are asked an input.
+
+By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
+
+Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
+
+Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct.
+
+The input should be ending with even numbers due to parallel function.
+
+Here there is extra function named dummy,So in all the above ones variable is LOL but here we should use ``LOLO``.
+
+So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` with last digits even.
+
