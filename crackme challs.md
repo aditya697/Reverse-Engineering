@@ -96,33 +96,25 @@ So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` wi
 
 # ***CRACKME0X08***
 
-We are given a file,by giving it permission and running it we can see that we are asked an input.
+This is similar to crackme0x07 and it also says no symbol table is loaded.
 
-By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
+I took info file again and found the address of .text section and disassembled that using the addresses
 
-Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
+Here also dummy, parell were the same, but the function check had an extra function che which just prints Password Incorrect! and exits.
 
-Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct.
+Here too we can export an environment variable with name LOL using ```export LOL="LOL"```
 
-The input should be ending with even numbers due to parallel function.
-
-Here there is extra function named dummy,So in all the above ones variable is LOL but here we should use ``LOLO``.
-
-So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` with last digits even.
+We can input ``88,556,...`` And we get password OK!.
 
 # ***CRACKME0X09***
 
-We are given a file,by giving it permission and running it we can see that we are asked an input.
+This is similar to crackme0x07 and it also says no symbol table is loaded.
 
-By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
+I took info file again and found the address of .text section and disassembled that using the addresses
 
-Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
+Here also dummy, parell were the same, but the function check had an extra function che which just prints Password Incorrect! and exits.
 
-Then values in sscanf are added and compared with 16. Soo the numbers entered should make sum of 16 for the input to be correct.
+Here too we can export an environment variable with name LOL using ```export LOL="LOL"```
 
-The input should be ending with even numbers due to parallel function.
-
-Here there is extra function named dummy,So in all the above ones variable is LOL but here we should use ``LOLO``.
-
-So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` with last digits even.
+We can input ``88,556,...`` And we get password OK!.
 
