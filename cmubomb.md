@@ -66,3 +66,8 @@ We can uderstand it is a fibonacci series, for 55 fibonacci is 10,Since the 2nd 
 So the number above the number = 2 we have to subtract 1. Therefore 10-1=9. ``9`` defuses the phase_4.
 
 ## *PHASE_5*
+
+By looking at the code of phase_5 using ```disas phase_5```.
+
+By looking at the string_lenght function below it there is a cmp statemnt which is compared with 6 . So the lenght of the string is 6.
+
