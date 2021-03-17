@@ -71,3 +71,30 @@ By looking at the code of phase_5 using ```disas phase_5```.
 
 By looking at the string_lenght function below it there is a cmp statemnt which is compared with 6 . So the lenght of the string is 6.
 
+To the input we give AND operation is done with 0xF and which is compared to the string ```gaints```.
+
+So some string is being modified by AND operation with 0xf to get `gaints`.
+
+so we need the result of the AND operations 15,0,5,11,13,1.
+
+AND Operaations results as ```a 1, b 2, c 3, d 4, e 5, f 6, g 7, h 8, i 9, j 10, k 11, l 12, m 13, n 14, o 15, p 0```
+
+So the final string that we have input is ```opekma```.
+
+## *PHASE_6*
+
+By looking at the code of phase_4 using ```disas phase_4```.
+
+By looking at read_six_numbers function the phase_6 akes in 6 integers as input.
+
+![image](https://user-images.githubusercontent.com/73250884/111499446-f7486f00-8768-11eb-87ea-cfa4c274c2ff.png)
+
+Here these numbers indicate node values, node numbers, pointer of next node.
+
+By arrange the node values in decreasing order and placing that order as the input we can defuse the bomb.
+
+![image](https://user-images.githubusercontent.com/73250884/111499799-527a6180-8769-11eb-8c36-180081787127.png)
+
+From this the decreasing order is ```4 2 6 3 1 5```.
+
+The last phase can be defused with ```4 2 6 3 1 5```.
