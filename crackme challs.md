@@ -82,6 +82,8 @@ So if we run the program using ``LOL= ./crackme0x06`` and give ``88,556....`` wi
 
 We are given a file,by giving it permission and running it we can see that we are asked an input.
 
+Here file is stripped. So by using info files and the ```disas 0x08048400,0x08048784``` we can see the assembly code.
+
 By looking at code we can see a scanf function,by keeping breakpoint at that place if we run the program we can see ``%s`` which is a string.
 
 Then there is a there check function, by checking that function we can see sscanf which type casting ``%s to %d``.
